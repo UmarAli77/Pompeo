@@ -1,0 +1,315 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 600px) {
+    .col{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-toggler{
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+    }
+    .vesas-mini{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        img{
+            width: 80px;
+            margin-right: 52px;
+            margin-top: 35px;
+        }
+    }
+    .mugs-mini{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        img{
+            width: 80px;
+            margin-right: 54px;
+            margin-top: 35px;
+        }
+    }
+    .plates-mini{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        img{
+            width: 80px;
+            margin-right: 56px;
+            margin-top: 35px;
+        }
+    }
+    .unique-img{
+        border: 1px solid red;
+        img{
+            max-width: 570px;
+
+        }
+    }
+    .card-history{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .gold{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+        .gold-about{
+            margin-top: 450px;
+        }
+    }
+    .silver{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        .silver-about{
+            margin-top: -280px;
+        }
+    }
+    .banner{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-card{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-end{
+        text-align: center;
+    }
+    .created-img{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        img:first-child{
+            z-index: -1;
+            width: 350px;
+            position: relative;
+            top: 2090px;
+            left: 240px;
+        }
+        img:nth-child(2){
+            z-index: -2;
+            width: 310px;
+            position: relative;
+            top: 2280px;
+            left: 140px;
+        }
+    }
+    .created-text{
+        text-align: center;
+    }
+    .drop{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        .input-all{
+            width: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        }
+        .name-input-1{
+            p{
+            margin-left: 55px;
+            }
+            .name-input{
+                margin-left: 50px;
+            }
+        }
+    }
+    .sorovnoma{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .input-btn{
+        margin-left: 50px;
+    }
+    .row{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        .col{
+            width: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            text-align: center;
+        }
+    }
+    .contact-img{
+        img{
+            width: 534px;
+        }
+    }
+    .banner-fon{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        .banner-shop-text{
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .col{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .card-history{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .banner{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-card{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-end{
+        text-align: center;
+    }
+    .drop{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        .input-all{
+            width: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        }
+        .name-input-1{
+            p{
+            margin-left: 55px;
+            }
+            .name-input{
+                margin-left: 50px;
+            }
+        }
+    }
+    .sorovnoma{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .input-btn{
+        margin-left: 50px;
+    }
+    .row{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        .col{
+            width: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            text-align: center;
+        }
+    }
+    .contact-img{
+        img{
+            width: 700px;
+        }
+    }
+    .banner-fon{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        .banner-shop-text{
+            text-align: center;
+        }
+    }
+}

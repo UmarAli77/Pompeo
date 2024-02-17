@@ -1,0 +1,415 @@
+@import "ozgaruvchi.scss";
+@import "responsive.scss";
+@import "../autoprefixer/style.autoprefixer.scss";
+@import "../minifier/style.minifier.scss";
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.header-pompeo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+// .header-logo{
+//     margin-left: 100px;
+// }
+.header-royxat{
+    margin-right: 150px;
+}
+.poppeo{
+    font-family: Poppins, sans-serif;
+    color: rgb(215, 116, 116);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.unique-span{
+    position: relative;
+    font-family: 'Playfair Display', sans-serif;
+    color: rgb(172, 19, 19);
+    font-size: 68px;
+    line-height: 68px;
+    font-weight: 400;
+}
+.unique-text{
+    margin-top: 120px;
+    h2{
+        font-size: 48px;
+    }
+    button{
+        padding: 10px 30px;
+        border: none;
+        background-color: #ac1313;
+        button:hover{
+            color: white;
+            transform: rotate(360deg);
+        }
+        a{
+            transition: all 0.5s;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
+.text-unique{
+    color: $kul-rang;
+}
+.main-fon{
+    background: url(../images/main-2.jpg);
+}
+.unique-img img{
+    width: auto;
+    height: 500px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fixsed-img{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 999;
+    text-align: center;
+}
+.products-cate{
+    font-family: Poppins, sans-serif;
+    color: rgb(215, 116, 116);
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.product-menu h1{
+    font-family: Poppins, sans-serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    span{
+        font-family: 'Playfair Display', sans-serif;
+        color: rgb(172, 19, 19);
+        font-size: 38px;
+    }
+}
+.vesas{
+    width: 240px;
+    height: 240px;
+    border-radius: 250px;
+    background-color: rgb(228, 179, 102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .vesas-mini{
+        width: 200px;
+        height: 200px;
+        border-radius: 180px;
+        background-color: rgb(235, 185, 106);
+        img{
+            width: 80px;
+            margin-left: 58px;
+            margin-top: 30px;
+        }
+        h3{
+            color: white;
+            text-align: center;
+            margin-top: 25px;
+        }
+    }
+}
+.mugs{
+    width: 240px;
+    height: 240px;
+    border-radius: 250px;
+    background-color: rgb(240, 91, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .mugs-mini{
+        width: 200px;
+        height: 200px;
+        border-radius: 180px;
+        background-color: rgba(255, 85, 0, 0.84);
+        img{
+            width: 80px;
+            margin-left: 58px;
+            margin-top: 30px;
+        }
+        h3{
+            color: white;
+            text-align: center;
+            margin-top: 25px;
+        }
+    }
+}
+.plates{
+    width: 240px;
+    height: 240px;
+    border-radius: 250px;
+    background-color: rgb(162, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .plates-mini{
+        width: 200px;
+        height: 200px;
+        border-radius: 180px;
+        background-color: rgb(204, 17, 17);
+        img{
+            width: 80px;
+            margin-left: 58px;
+            margin-top: 30px;
+        }
+        h3{
+            color: white;
+            text-align: center;
+            margin-top: 25px;
+        }
+    }
+}
+.card-history{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    div{
+        width: 50%;
+        p{
+            color: $kul-rang;
+        }
+        h1{
+            font-size: 35px;
+        }
+    }
+}
+.gold-about{
+    align-items: center;
+    .lorem-paragraf{
+        color: $kul-rang;
+    }
+}
+.gold{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gold-img img{
+    width: 260px;
+    height: 550px;
+}
+.gold-koza{
+    margin-right: 50px;
+    width: 500px;
+    height: 250px;
+    background-color: $kul-rang;
+    padding-top: 50px;
+}
+
+
+
+.silver-about{
+    align-items: center;
+    .lorem-paragraf{
+        color: $kul-rang;
+    }
+}
+.silver{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.silver-img img{
+    width: 260px;
+    height: 550px;
+    margin-left: 130px;
+}
+.silver-koza{
+    margin-right: 50px;
+    width: 500px;
+    height: 250px;
+    background-color: $kul-rang;
+    padding-top: 50px;
+}
+.silver{
+    margin-top: 380px;
+    .silver-about{
+        margin-right: 120px;
+    }
+}
+.online-store{
+    margin-top: 320px;
+    text-align: center;
+    p{
+        text-transform: uppercase;
+        color: rgb(215, 116, 116);
+        font-size: 16px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+.card{
+    border-bottom: 1px solid #aaa;
+    border: none;
+}
+.card-text{
+    color: $kul-rang;
+}
+.card-img-top{
+    transition: all 1s;
+    .card-img-top:hover{
+        transform: scale(1.5);
+    }
+}
+.banner{
+    background: url(../images/laganlar-kop.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-paragraf{
+    color: rgb(215, 116, 116);
+    text-transform: uppercase;
+}
+.banner-text{
+    span{
+        text-decoration: underline;
+        color: rgb(172, 19, 19);
+    }
+    button{
+        padding: 20px 40px;
+        background-color: rgb(172, 19, 19);
+        border: none;
+        color: white;
+    }
+}
+.latest-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon-telegram{
+        background-color: rgb(235, 185, 106);
+        border-radius: 100%;
+    }
+}
+.latest{
+    text-align: center;
+    h3{
+        font-size: 35px;
+        span{
+            color: rgb(172, 19, 19);
+        }
+    }
+}
+.latest-news{
+    text-transform: uppercase;
+    color: rgb(215, 116, 116);
+}
+
+.input-message{
+    display: flex;
+    text-align: center;
+    width: 260px;
+    border: 1px solid #aaa;
+    img{
+        width: 35px;
+    }
+    input{
+        border: none;
+    }
+    button{
+        text-transform: uppercase;
+        padding: 10px 40px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        transition: all 0.5s;
+    }
+    button:hover{
+        background-color: rgb(172, 19, 19);
+    }
+}
+label{
+    color: $kul-rang;
+}
+.checkbox{
+    margin-left: 120px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    label{
+        margin-top: 5px;
+    }
+}
+.pompeo-footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-head{
+    text-align: center;
+    p{
+        color: $kul-rang;
+    }
+}
+footer{
+    margin-top: 90px;
+}
+.card-1{
+    text-align: center;
+    img{
+        width: 45px;
+    }
+    p{
+        color: $kul-rang;
+    }
+}
+.footer-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 220px;
+}
+.footer-end{
+    text-align: center;
+    span{
+        color: $kul-rang;
+    }
+}
+.unique-span{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 48px;
+}

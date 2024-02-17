@@ -1,0 +1,237 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import "../style/ozgaruvchi.scss";
+@import "../style/responsive.scss";
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.header-pompeo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-contact{
+    background-image: url(../images/chashka-banner.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)));
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3));
+    background: linear-gradient(rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3));
+    height: 500px;
+    margin-top: 55px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.banner{
+    p{
+    color: $kul-rang;
+    }
+    h1{
+        color: black;
+    }
+}
+.contact-us-text{
+    text-align: center;
+    margin-top: 100px;
+    p{
+        color: rgb(215, 116, 116);
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 40px;
+        color: black;
+        font-family: Poppins, sans-serif;
+    }
+}
+.card-item{
+    text-align: center;
+    h3{
+        text-transform: uppercase;
+        color: black;
+        font-size: 25px;
+    }
+    p{
+        color: $kul-rang;
+    }
+}
+.col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.contact-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.fixsed-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 999;
+    text-align: center;
+}
+.sorovnoma-color{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(251, 239, 239);
+    width: 400px;
+    height: 680px;
+    .sorovnoma-color-2{
+        width: 300px;
+        height: 480px;
+        background-color: $kul-rang;
+    }
+}
+.drop{
+    h2{
+        font-size: 30px;
+    }
+    .name-input{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        border: 1px solid #aaa;
+        width: 250px;
+        background-color: #ede1e1;
+        margin-right: 20px;
+        img{
+            padding: 5px 0px;
+            width: 30px;
+            margin-left: 8px;
+            background-color: transparent;
+        }
+        input{
+            border: none;
+            background-color: transparent;
+        }
+        textarea{
+            border: none;
+            background-color: transparent;
+        }
+        .input-qalam{
+            margin-bottom: 160px;
+            margin-right: 5px;
+        }
+    }
+}
+.input-all{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.sorovnoma{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.input-btn{
+    padding: 20px 40px;
+    background-color: rgb(172, 19, 19);
+    text-align: center;
+    color: white;
+    border: none;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.pompeo-footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-head{
+    text-align: center;
+    p{
+        color: $kul-rang;
+    }
+}
+footer{
+    margin-top: 280px;
+}
+.card-1{
+    text-align: center;
+    img{
+        width: 45px;
+    }
+    p{
+        color: $kul-rang;
+    }
+}
+.footer-card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 220px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.footer-end{
+    text-align: center;
+    span{
+        color: $kul-rang;
+    }
+}
